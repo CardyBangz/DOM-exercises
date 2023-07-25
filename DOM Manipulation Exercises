@@ -1,0 +1,32 @@
+1. getElementbyId("container");
+
+2. document.querySelector("#container")
+
+3. document.querySelectorAll("#second")
+3. fetElementbyClassName("second");
+
+4. document.querySelector("ol.third");
+
+5. let divCon= document.querySelector("#container")
+ divCon.innertext="Hello"
+
+6. let footer= querySelector(".footer") 
+ footer.classList.add("main");
+
+7. footer.classList.remove("main");
+ 
+
+8. newLi= document.createElement("li");
+
+9. newLi.innertext="four"
+
+10. let newUl= document.querySelector("ul")
+ newUl.appendChild(newLi)
+
+11. let sheesh= document.querySelectorAll("ol li")
+ for( let i=0; i< sheesh.length; i++){
+    sheesh[i].Style.backgroundColor= "green";
+ }
+
+12. let footer= document.querySelector(".footer") 
+ footer.remove();
